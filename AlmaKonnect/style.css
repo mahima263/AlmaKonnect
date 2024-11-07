@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto Serif', serif;
+    overflow-x: hidden;
+    height: 100vh; /* Full viewport height */
+}
+html, body {
+  height: 100%; /* Ensure both html and body take full height */
+}
+
+
+  /* Apply Roboto Serif for headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Serif', serif;
+}
+
+/* Apply Roboto for paragraphs and body text */
+body, p, a, li {
+  font-family: 'Roboto Serif', serif;
+}
+.custom-nav {
+  width: 100%;
+  background-color: #AA552A; /* Or any desired background color */
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+
+.custom-banner {
+    width: 100%; /* Make the image take full width of the container */
+    height: auto; /* Maintain the aspect ratio */
+    max-height: 700px; /* Optional: Set a max height if needed */
+    display: block; /* Remove any default margin */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    margin-top: 90px;
+}
+.left-section {
+    color: #AA552A; /* Dark red color */
+    text-align:left;
+}
+
+.divider {
+    width: 4px;
+    background-color: #D4A96E; /* Gold color */
+    min-height: 150px; /* Adjust height as needed */
+}
+@media (max-width: 768px) {
+  .divider {
+      display: none;
+  }
+}
+
+/* Adjust flex direction and alignments for smaller screens */
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+      align-items: center;
+  }
+  .left-section{
+      text-align:left;
+  }
+  .left-section{
+    text-align:center;
+}
+}
+.right-section {
+    color: #000;
+}
+.second{
+    font-size: 1.2rem; /* Adjust size as needed */
+    padding: 0 15px; /* Add left and right padding */
+    color:rgb(37, 38, 38);
+  }
+  .section-container-fluid {
+    background-color: #F5F5F5; /* Full-width light gray background */
+    padding: 10px 0;
+}
+
+.section-container {
+    padding: 40px 20px;
+    border-radius: 8px;
+}
+
+.section-heading {
+    color: #333;
+    font-weight: bold;
+}
+
+
+
+.card-title {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.5rem;
+    margin-top: 8px;
+}
+  .section-heading {
+    color: #AA552A; /* Dark red color */
+    font-weight: bold;
+}
+
+.section-subtitle {
+    color: #555;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+    color: #fff;
+    height:100%;
+}
+
+.card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card .card-text {
+    font-size: 1.0rem;
+}
+
+/* Background colors for each card */
+
+/* General card styling */
+.card {
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+    color: #fff;
+    height: 100%;
+}
+
+/* Styling for orange card */
+.card-orange {
+    background: linear-gradient(135deg, #b94b2f, #d86c4a);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Ensure the hover effect applies correctly */
+.card-orange:hover {
+    background-color: #ffffff !important;  /* Ensures background becomes white */
+    color: #333 !important;  /* Ensures text color changes */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);  /* Increases shadow effect */
+}
+
+/* Change text color on hover */
+.card-orange:hover .card-title,
+.card-orange:hover .card-text {
+    color: #333;
+}
+
+/* Make SVG icons black on hover */
+.card-orange:hover img {
+    filter: brightness(0);
+}
+.footer {
+    background-color: #0a0e10;
+    color: #ffffff;
+    padding: 40px 0;
+    font-size: 0.9rem;
+  }
+  .footer-logo img {
+    width: 80px;
+  }
+  .footer .social-icons a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 1.2rem;
+  }
+  .footer .btn-login {
+    background-color: #cc6633;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .footer a:hover {
+    color: #cc6633;
+    text-decoration: underline;
+  }
+  .footer .copyright {
+    font-size: 0.8rem;
+  }
+.btn1-login {
+    background-color: #2f0987;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
